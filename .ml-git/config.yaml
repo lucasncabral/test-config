@@ -6,9 +6,6 @@ labels:
 models:
   git: git@github.com:lucasncabral/mlgit-models.git
 storages:
-  azureblobh:
-    arroz: {}
-    test: {}
   gdriveh:
     demo-gdriveh:
       credentials-path: null
