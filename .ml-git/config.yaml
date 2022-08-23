@@ -15,7 +15,7 @@ storages:
         profile: null
       endpoint-url: null
       region: null
-    STORAGE_NAME:
+    STORAGE_NAME2:
       aws-credentials:
         profile: null
       endpoint-url: null
