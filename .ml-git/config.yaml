@@ -1,0 +1,31 @@
+batch_size: 20
+datasets:
+  git: git@github.com:lucasncabral/mlgit-datasets.git
+labels:
+  git: git@github.com:lucasncabral/mlgit-labels.git
+models:
+  git: git@github.com:lucasncabral/mlgit-models.git
+storages:
+  azureblobh:
+    arroz: {}
+    test: {}
+  gdriveh:
+    demo-gdriveh:
+      credentials-path: null
+  s3h:
+    demo-mlgit:
+      aws-credentials:
+        profile: null
+      endpoint-url: null
+      region: null
+    STORAGE_NAME2:
+      aws-credentials:
+        profile: null
+      endpoint-url: null
+      region: us-east-1
+  sftph:
+    mlgit:
+      endpoint-url: 127.0.0.1
+      port: 9922
+      private-key: null
+      username: foo
